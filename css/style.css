@@ -1,11 +1,11 @@
 .colorPurple{
-    background-color:rgb(128, 128, 255);
+    background-color:rgb(107, 92, 190);
 }
 .colorBright{
-    background-color:rgb(210, 210, 255);
+    background-color:rgb(220, 220, 255);
 }
 .colorLila{
-    background-color:rgb(183, 128, 255);
+    background-color:rgb(161, 112, 224);
 }
 .background1{
     width: 100%;
@@ -13,10 +13,11 @@
     position: absolute;
 }
 .background2{
-    top: 300px;
+    top: 300px; 
     width: 100%;
-    height: 100%;
+    height: calc(100% + 300px);
     position: absolute;
+    z-index: -1;
 }
 .test{
     position: absolute;

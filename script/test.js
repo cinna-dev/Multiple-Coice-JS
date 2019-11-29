@@ -64,6 +64,10 @@ let questionBasket = [
     {questionInput : 'Which Companie is the largest (in Market cap, 2019)',
     choices : ['Apple','Alphabet (Google)','Microsoft','Amazon','Tencent','Facebook','Alibaba'],
     rightAnswer : 'Apple'
+    },
+    {questionInput : 'Which is the longest River',
+    choices : ['Nile','Amazon ','Yangtze','Yellow River','Paraná','Congo','Alibaba'],
+    rightAnswer : 'Nile'
     }
 ]
 
@@ -172,7 +176,7 @@ function createNextButton(){
     case true: card.querySelector('.btn').remove()
     default:const button = document.createElement('button');
         button.type='submit';
-        button.className = "btn btn-lg btn-light";
+        button.className = "btn btn-lg btn-light ";
         button.disabled = true;
         button.addEventListener('click',nextButton);
         button.appendChild(document.createTextNode('Next'));
